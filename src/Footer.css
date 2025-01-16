@@ -1,0 +1,44 @@
+#footer{
+    margin-top: 50px;
+background-color: rgb(38, 37, 37);
+width: 100%;
+height: 400px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    margin-top: 50px;
+}
+.foot h1{
+    color: orangered;
+}
+.foot p{
+    color: white;
+    line-height: 30px;
+}
+.center{
+    color: white;
+    margin-top: 50px;
+}
+.center ul{
+    list-style: none;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.left{
+    color: white;
+    margin-top: 50px;
+}
+.left ul{
+    list-style: none;
+    line-height: 30px;
+    margin-top: 50px;
+
+}
+.copy{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
