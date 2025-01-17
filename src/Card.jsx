@@ -2,7 +2,7 @@ import './Card.css'
 const Card = ()=>{
     return(
         <>
-<div className='our'>
+{/* <div className='our'>
         <h1>Our Food</h1>
         </div>
         <div className='cardsec'>
@@ -105,7 +105,7 @@ const Card = ()=>{
 <h3>$30</h3>
 </div>
 </div>
-</div>
+</div> */}
 
         </>
     )

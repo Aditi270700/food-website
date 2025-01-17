@@ -1,10 +1,10 @@
-import './footer.css'
+import './foot.css'
 import React from 'react'
 
-const Footer = () =>{
+const Foot = () =>{
 return (
     <>
-    <div className='footer' id='footer' >
+     <div className='footer' id='footer' >
 <div className='footer-content'>
 <div className='foot'>
 <h1>Tomato.</h1>
@@ -35,12 +35,10 @@ a necessitatibus impedit at obcaecati asperiores ipsam magnam! Odio?<br/>
 <div className='copy'>
     copy98745632133-AllrightForward
 </div>
-</div>
+</div>  
 
-
-    
-    </>
+</>
 )
 
 }
-export default Footer
+export default Foot
