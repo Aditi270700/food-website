@@ -140,7 +140,7 @@ const Home = () => {
         <div className="card">
           <img src="momos.jpg" width="300px" height="350px" />
           <div className="cake">
-            <h2>Pasta</h2>
+            <h2>Momos</h2>
             <h3>$30</h3>
             <button className="cak" onClick={goToSignup}>book</button>
           </div>

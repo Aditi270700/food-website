@@ -1,12 +1,36 @@
 {
   "class": [
     {
-      "name": "Aditi",
+      "name": "pragti",
       "email": "aditi@gmail.com",
-      "age": "2",
+      "age": "25",
       "city": "gujrat",
       "contact": "789456123",
       "id": "0c42"
+    },
+    {
+      "id": "9edb",
+      "name": "dipika",
+      "email": "saudagar17@gmail.com",
+      "age": "30",
+      "city": "indore",
+      "contact": "456123789"
+    },
+    {
+      "id": "6914",
+      "name": "pragti",
+      "email": "aditisaudagar17@gmail.com",
+      "age": "25",
+      "city": "bhopal",
+      "contact": "789456123"
+    },
+    {
+      "id": "78d3",
+      "name": "riya",
+      "email": "aditisaudagar17@gmail.com",
+      "age": "gjh",
+      "city": "fgf",
+      "contact": "fgfhg"
     }
   ]
 }

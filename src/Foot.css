@@ -42,3 +42,61 @@ height: 400px;
     color: white;
     text-align: center;
 }
+
+@media (max-width: 720px) {
+  .footer-content {
+    flex-direction: column; /* Stack the footer sections vertically */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center the text */
+  }
+
+  .foot, .center, .left {
+    margin-top: 20px; /* Reduce margin for compact layout */
+  }
+
+  .center ul, .left ul {
+    margin-top: 20px; /* Adjust spacing for lists */
+  }
+
+  .copy {
+    margin-top: 30px; /* Reduce spacing above the copyright */
+    font-size: 14px; /* Smaller font size */
+  }
+}
+
+@media (max-width: 420px) {
+  #footer {
+    height: auto; 
+    padding: 20px 10px; 
+  }
+
+  .footer-content {
+    flex-direction: column; 
+    gap: 20px; 
+  }
+
+  .foot, .center, .left {
+    margin-top: 10px; 
+  }
+
+  .foot h1, .center h1, .left h1 {
+    font-size: 18px; 
+  }
+
+  .foot p {
+    font-size: 14px; 
+    line-height: 24px; 
+  }
+
+  .center ul, .left ul {
+    margin-top: 10px; 
+    line-height: 24px; 
+  }
+
+  .copy {
+    margin-top: 20px; 
+    font-size: 12px;
+  }
+}
+
+

@@ -1,5 +1,5 @@
- import axios from "axios"
- import React from "react"
+import axios from "axios"
+import React from "react"
 import {  useState } from "react"
 import './Contact.css'
 const Contact = ()=>{
@@ -27,17 +27,17 @@ const Contact = ()=>{
         <>
         <div className='contact-form' onSubmit={submitform}>
         <div className='contact' >
-          <form className='contact-container'  >
+          <form className='contact-container'>
            <div className='cont'>
             <h2>Contact</h2>
             </div>
             <div className='contact-popup-input'>
            
-<input type="text" placeholder='your name'  value={frminp.name}  onChange={changeinp} />
-<input type="email" placeholder='your email'  value={frminp.email}  onChange={changeinp}  />
-<input type="text" placeholder='your age'  value={frminp.age}  onChange={changeinp} />
-<input type="city" placeholder='your city'  value={frminp.city}  onChange={changeinp} />
-<input type="text" placeholder='your contact'  value={frminp.contact}  onChange={changeinp} />
+<input type="text" placeholder='your name' name="name" value={frminp.name}  onChange={changeinp} />
+<input type="email" placeholder='your email' name="email"  value={frminp.email}  onChange={changeinp}  />
+<input type="text" placeholder='your age' name="age"  value={frminp.age}  onChange={changeinp} />
+<input type="city" placeholder='your city' name="city" value={frminp.city}  onChange={changeinp} />
+<input type="text" placeholder='your contact' name="contact"  value={frminp.contact}  onChange={changeinp} />
             </div>
             <button className='con'>Submit</button>
            

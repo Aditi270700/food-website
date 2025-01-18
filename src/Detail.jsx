@@ -75,12 +75,12 @@ return(
             <h2>Contact</h2>
             </div>
             <div className='contact-popup-input'>
-<input type="text" placeholder='your id'  value={edition.id}  onChange={hinput} />        
-<input type="text" placeholder='your name'  value={edition.name}  onChange={hinput} />
-<input type="email" placeholder='your email'  value={edition.email}  onChange={hinput}  />
-<input type="text" placeholder='your age'  value={edition.age}  onChange={hinput} />
-<input type="city" placeholder='your city'  value={edition.city}  onChange={hinput} />
-<input type="text" placeholder='your contact'  value={edition.contact}  onChange={hinput} />
+<input type="text" placeholder='your id' name="id" value={edition.id}  onChange={hinput} />        
+<input type="text" placeholder='your name' name="name" value={edition.name}  onChange={hinput} />
+<input type="email" placeholder='your email' name="email" value={edition.email}  onChange={hinput}  />
+<input type="text" placeholder='your age' name="age" value={edition.age}  onChange={hinput} />
+<input type="city" placeholder='your city' name="city" value={edition.city}  onChange={hinput} />
+<input type="text" placeholder='your contact' name="contact" value={edition.contact}  onChange={hinput} />
             </div>
             <button className='con'>Submit</button>
            
