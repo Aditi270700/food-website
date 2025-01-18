@@ -1,0 +1,27 @@
+.tab{
+margin-top: 100px;
+position: relative;
+left: 300px;
+border: none;
+width: 70%;
+}
+.table-data{
+background-color:silver;
+padding: 10px 10px 20px 20px;
+margin: 20px;
+
+
+
+}
+.table-data th{
+ padding: 10px 10px; 
+  
+}
+.data{
+   background-color:silver; 
+}
+.but{
+    border: none;
+    background-color:silver; 
+    font-weight: 600;
+}

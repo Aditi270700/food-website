@@ -21,12 +21,17 @@ color:orangered;
 
 .nav ul li{
  list-style: none;
+  color: black; 
 }
 .nav{
   display: flex;
   list-style: none;
   gap: 35px;
   font-size: 20px;
+  
+}
+.nav ul{
+  color: black;
 }
 /* header */
 .header{
@@ -64,4 +69,14 @@ position: relative;
   background-color: white;
   font-size: 20px;
   border-radius: 50px;
+}
+.cak{
+  border: none;
+  padding: 5px 5px ;
+  margin-left: 30px;
+  border-radius: 20px;
+  background-color:silver;
+  color:white;
+  font-family:  Arial, sans-serif;
+  font-weight: 700;
 }

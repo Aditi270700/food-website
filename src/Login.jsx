@@ -1,25 +1,26 @@
-// import react, { useState } from 'react'
-// import './Login.css'
-// import {assets} from '../../assets/assets'
 
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = ()=>{
-
-    // const [currState,setCurrState] = useState("Signup")
+let Navigate = useNavigate();
+  function goToContact() {
+    Navigate("/contact");
+  }
     return(
         <>
+        <div className="contact-form"> 
         <div className='login-popup'>
-          <form className='login-popup-container' >
+          <form className='login-popup-container'>
            <div className='login'>
             <h2>Login</h2>
-            {/* <img src ={assets.cross_icon} alt=""/> */}
+          
             </div>
             <div className='login-popup-input'>
     <input type="text" placeholder='your name' required/>
 <input type="email" placeholder='your email' required/>
 <input type="password" placeholder='your password' required/>
             </div>
-            <button className='log'>Login</button>
+            <button className='log' onClick={goToContact}>Login</button>
             <div className='login-popup-condition'>
 <input type="checkbox" required/>
 <p>By continuing, i agree to the terms of use & privacy policy.</p>
@@ -28,6 +29,7 @@ const Login = ()=>{
             <p>Already have an account?<span>Click here</span></p>
     
             </form> 
+        </div>
         </div>
         </>
     )

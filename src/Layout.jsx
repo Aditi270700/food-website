@@ -8,12 +8,12 @@ const Header =  ()=>{
         <h1>Tomato.</h1>
         
         <ul className='nav'>
-        <li><Link to="/" style={{textDecoration:"none"}}>Home</Link></li>
-        <li><Link to="/" style={{textDecoration:"none"}}>Menu</Link></li>
-
-         <li><Link to="contact" style={{textDecoration:"none"}}>Contact</Link></li>
-        <li><Link to="signup" style={{textDecoration:"none"}}>Signup</Link></li>
-        <li><Link to="login" style={{textDecoration:"none"}}>Login</Link></li>
+        <li><Link to="/" style={{textDecoration:"none" , color:"black"}}>Home</Link></li>
+        <li><Link to="/" style={{textDecoration:"none" , color:"black"}}>Menu</Link></li>
+        <li><Link to="/contact" style={{textDecoration:"none" , color:"black"}}>Contact</Link></li>
+        <li><Link to="/signup" style={{textDecoration:"none" , color:"black"}}>Signup</Link></li>
+        <li><Link to="/login" style={{textDecoration:"none" , color:"black"}}>Login</Link></li>
+         <li><Link to="detail" style={{textDecoration:"none", color:"black"}}>Detail</Link></li>
         </ul>
         </div> 
 

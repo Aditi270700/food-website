@@ -1,12 +1,15 @@
 import './Signup.css'
-
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = ()=>{
-
+ let Navigate = useNavigate();
+  function goToLogin() {
+    Navigate("/login");
+  }
     
     return(
         <>
-    
+    <div className='contact-form'>
         <div className='login-popup'>
           <form className='login-popup-container' >
            <div className='login'>
@@ -23,11 +26,11 @@ const Signup = ()=>{
 <p>By continuing, i agree to the terms of use & privacy policy.</p>
             </div>
             <span >Click here</span> 
-            <p>Already have an account?<span>Signup here</span></p>
+            <p>Already have an account?<span onClick={goToLogin}>Login here</span></p>
     
             </form> 
         </div>
-        
+        </div>
         </>
     )
 }
